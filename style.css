@@ -32,6 +32,20 @@ p{
 .section-m1{
     margin: 40px 0;
 }
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    transition: 0.2s;
+}
+
 body{
     width: 100%;
 }
@@ -57,7 +71,6 @@ body{
     list-style: none;
     padding: 0 20px;
     position: relative;
-
 }
 #navbar li a{
     text-decoration: none;
@@ -72,7 +85,7 @@ body{
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
-    content: "";
+    content: " ";
     width: 55%;
     height: 2px;
     background-color: #088178;
@@ -227,3 +240,32 @@ body{
     right: 15px;
 }
 
+/* ----------Call to action-------------- */
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/banner/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+#banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: #ef3636;
+}
+#banner button:hover{
+    background: #088178;
+    color: #ffffff;
+}
