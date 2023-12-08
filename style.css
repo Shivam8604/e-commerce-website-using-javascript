@@ -491,6 +491,77 @@ footer a:hover{
 #page-header p{
   color: #fff;
 }
+#pagination{
+  text-align: center;
+}
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+#pagination a i{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* -----------------single product------------------ */
+#prodetials{
+  display: flex;
+  margin-top: 20px;
+}
+
+
+#prodetials .single-pro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-group .small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetials .single-pro-detials{
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetials .single-pro-detials h4{
+  padding: 49px 0 20px 0;
+}
+#prodetials .single-pro-detials h4{
+  font-size: 26px;
+}
+#prodetials .single-pro-detials select{
+  display: block;
+  padding: 5px  10px;
+  margin-bottom: 10px;
+}
+#prodetials .single-pro-detials input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+#prodetials .single-pro-detials input:focus{
+  outline: none;
+}
+#prodetials .single-pro-detials button{
+  background-color: #088178;
+  color: #fff;
+}
+#prodetials .single-pro-detials span{
+  line-height: 25px;
+}
+
+
+
 
 /* -------------Responsive---------------- */
 
@@ -620,6 +691,18 @@ footer a:hover{
     padding: 40px 20px;
   }
   #banner .form{
+    width: 100%;
+  }
+  /* -----------single product---------- */
+  #prodetials {
+    display: flex;
+    flex-direction: column;
+  }
+  #prodetials .single-pro-img{
+    width: 100%;
+    margin-right: 0px;
+  }
+  #prodetials .single-pro-detials{
     width: 100%;
   }
 }
