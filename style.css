@@ -621,9 +621,34 @@ footer a:hover{
   z-index: -9;
 }
 
+/* ----------about page----------- */
 
+#page-header .about-header{
+  background-image: url(images/about/banner.png);
+}
 
+#about-head{
+  display: flex;
+  align-items: center;
+}
+#about-head div{
+  padding-left: 40px;
+}
 
+#about-head img{
+  width: 50%;
+  height: auto;
+}
+
+#about-app{
+  text-align: center;
+}
+#about-app .video video{
+  width: 70%;
+  height: 100%;
+  margin-top: 30px;
+  border-radius: 20px;
+}
 
 
 
@@ -788,4 +813,20 @@ footer a:hover{
   #blog .blog-details{
     width: 100%;
   }
+
+  /* About Page */
+
+  #about-head{
+    flex-direction: column;
+  }
+  #about-head img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about-head div{
+    padding-left: 0;
+  }
+  #about-app .video video {
+    width: 100%;
+}
 }
